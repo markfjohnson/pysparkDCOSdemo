@@ -1,0 +1,13 @@
+{
+ "service": {
+   "name": "spark-hdfs-history",
+   "user": "nobody"
+ },
+ "hdfs": {
+   "config-url": "http://hdfs.marathon.mesos:9000/v1/connect"
+ },
+ "history-server": {
+   "enabled": true,
+   "cleaner-enabled": true
+ }
+}
